@@ -1,0 +1,36 @@
+#box{
+    width: auto;
+    height: 1000px;
+    border-radius: 5px;
+    background-color: firebrick;
+}
+
+body *{
+    color:white;
+    font-weight: bold;
+}
+
+#grandparent{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    border : 1px solid red;
+}
+
+#parent{
+    width: 400px;
+    height: 400px;
+    margin-top: 10%;
+    margin-left: 10%;
+    background-color: blue;
+    border : 1px solid blue;
+}
+
+#child{
+    width: 300px;
+    height: 300px;
+    margin-top: 10%;
+    margin-left: 10%;
+    background-color: green;
+    border : 1px solid green;
+}
